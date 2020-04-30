@@ -7,10 +7,18 @@
     "tsdocstandard": "./bin/cmd.js"
   },
   "dependencies": {
-    "eslint": "~6.4.0",
+    "@typescript-eslint/eslint-plugin": "2.30.0",
+    "@typescript-eslint/parser": "2.30.0",
+    "eslint": "Raynos/eslint#v6.8.0-relative-to-parser",
     "eslint-config-standard": "14.1.0",
-    "eslint-plugin-standard": "~4.0.0",
-    "standard-engine": "^12.0.0"
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-jsdoc": "24.0.0",
+    "eslint-plugin-jsdoc-typescript": "1.1.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "standard-engine": "12.0.0",
+    "typescript": "3.8.3"
   },
   "devDependencies": {},
   "keywords": [
