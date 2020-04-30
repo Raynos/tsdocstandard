@@ -1,6 +1,6 @@
 # TSDoc Standard
 
-### Standard but also use TypeScript on JS files wiht jsdoc.
+### Standard but also use TypeScript on JS files with jsdoc.
 
 This `standard` configuration understands that you want to use
 typescript on `.js` files using `jsdoc` / `tsdoc` syntax.
