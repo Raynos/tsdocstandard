@@ -10,6 +10,9 @@ module.exports = {
   tagline: 'JavaScript + Typescript + JSDoc',
   eslint: require('eslint'),
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc.json')
+    configFile: path.join(__dirname, 'eslintrc.json'),
+    parserOptions: {
+      project: path.join(process.cwd(), './tsconfig.json')
+    }
   }
 }

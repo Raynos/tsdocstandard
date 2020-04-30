@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "lib": ["es2018"],
+    "noEmit": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "*" : ["./types/*"]
+    }
+  },
+  "include": [
+    "example/*.js"
+  ]
+}
