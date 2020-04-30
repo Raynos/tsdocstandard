@@ -1,43 +1,18 @@
 {
-  "name": "semistandard",
-  "description": "All the goodness of `feross/standard` with semicolons sprinkled on top.",
-  "version": "14.2.0",
-  "author": {
-    "email": "flettre@gmail.com",
-    "name": "Dan Flettre",
-    "url": "http://twitter.com/flettre"
-  },
+  "name": "tsdocstandard",
+  "description": "A standard for JavaScript + jsdoc + typescript",
+  "version": "15.0.0",
   "bin": {
-    "semistandard": "./bin/cmd.js"
-  },
-  "bugs": {
-    "url": "https://github.com/standard/semistandard/issues"
+    "standard": "./bin/cmd.js",
+    "tsdocstandard": "./bin/cmd.js"
   },
   "dependencies": {
     "eslint": "~6.4.0",
-    "eslint-config-semistandard": "15.0.0",
     "eslint-config-standard": "14.1.0",
-    "eslint-config-standard-jsx": "8.1.0",
-    "eslint-plugin-import": "~2.18.0",
-    "eslint-plugin-node": "~10.0.0",
-    "eslint-plugin-promise": "~4.2.1",
-    "eslint-plugin-react": "~7.14.2",
     "eslint-plugin-standard": "~4.0.0",
     "standard-engine": "^12.0.0"
   },
-  "devDependencies": {
-    "merge": "^1.2.0",
-    "mkdirp": "^0.5.1",
-    "rimraf": "^3.0.0",
-    "run-series": "^1.1.1",
-    "standard": "*",
-    "tape": "^4.6.3",
-    "xtend": "^4.0.0"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "homepage": "https://github.com/standard/semistandard",
+  "devDependencies": {},
   "keywords": [
     "JavaScript Standard Style",
     "bikeshed",
@@ -52,6 +27,7 @@
     "eslint",
     "hint",
     "jscs",
+    "jsdoc",
     "jshint",
     "lint",
     "policy",
@@ -63,18 +39,28 @@
     "style",
     "style checker",
     "style linter",
+    "tsdoc",
+    "typescript",
     "verify"
   ],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/tsdocstandard.git",
+  "homepage": "https://github.com/Raynos/tsdocstandard",
+  "bugs": {
+    "url": "https://github.com/Raynos/tsdocstandard/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Raynos"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/tsdocstandard/raw/master/LICENSE"
+    }
+  ],
   "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/standard/semistandard.git"
-  },
-  "scripts": {
-    "test": "standard && tape test/*.js"
-  },
-  "standard": {
-    "ignore": "tmp/**"
-  }
+  "main": "index.js"
 }

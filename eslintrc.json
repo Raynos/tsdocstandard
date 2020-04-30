@@ -1,3 +1,3 @@
 {
-   "extends": ["semistandard", "standard-jsx"]
+   "extends": ["tsdocstandard"]
 }
