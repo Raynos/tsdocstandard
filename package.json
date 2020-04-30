@@ -3,7 +3,6 @@
   "description": "A standard for JavaScript + jsdoc + typescript",
   "version": "15.0.1",
   "bin": {
-    "standard": "./bin/cmd.js",
     "tsdocstandard": "./bin/cmd.js"
   },
   "dependencies": {
