@@ -15,6 +15,11 @@ annotations.
 npm install tsdocstandard
 ```
 
+## How to ignore files
+
+Add a `tsdocstandard` key like documented for `standard`
+https://standardjs.com/#how-do-i-ignore-files
+
 ## Rules
 
 Importantly:

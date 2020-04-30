@@ -16,7 +16,7 @@ class Demo {
 
   /**
    * @param {number} c
-   * @returns {void}
+   * @returns {number}
    */
   foo (c) {
     return this.a + c
