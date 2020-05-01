@@ -14,5 +14,15 @@ module.exports = {
     parserOptions: {
       project: path.join(process.cwd(), './tsconfig.json')
     }
+  },
+  customParseOpts: (opts, packageOpts, rootDir) => {
+    opts.eslintConfig = opts.eslintConfig || {}
+    opts.eslintConfig.parserOptions = opts.eslintConfig.parserOptions || {}
+
+    const cwd = rootDir || process.cwd()
+    opts.eslintConfig.parserOptions.project =
+      path.join(cwd, './tsconfig.json')
+
+    return opts
   }
 }
