@@ -23,7 +23,7 @@ module.exports = {
     opts.eslintConfig.parserOptions.tsconfigRootDir = cwd
     opts.eslintConfig.parserOptions.project = './tsconfig.json'
 
-    if (opts.filename.indexOf('file://') === 0) {
+    if (opts.filename && opts.filename.indexOf('file://') === 0) {
       opts.filename = opts.filename.slice(7)
     }
 
