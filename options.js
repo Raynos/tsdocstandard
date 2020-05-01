@@ -10,18 +10,22 @@ module.exports = {
   tagline: 'JavaScript + Typescript + JSDoc',
   eslint: require('eslint'),
   eslintConfig: {
-    configFile: path.join(__dirname, 'eslintrc.json'),
-    parserOptions: {
-      project: path.join(process.cwd(), './tsconfig.json')
-    }
+    configFile: path.join(__dirname, 'eslintrc.json')
+    // parserOptions: {
+    //   project: path.join(process.cwd(), './tsconfig.json')
+    // }
   },
-  customParseOpts: (opts, packageOpts, rootDir) => {
+  parseOpts: (opts, packageOpts, rootDir) => {
     opts.eslintConfig = opts.eslintConfig || {}
     opts.eslintConfig.parserOptions = opts.eslintConfig.parserOptions || {}
 
-    const cwd = rootDir || process.cwd()
-    opts.eslintConfig.parserOptions.project =
-      path.join(cwd, './tsconfig.json')
+    const cwd = opts.cwd || process.cwd()
+    opts.eslintConfig.parserOptions.tsconfigRootDir = cwd
+    opts.eslintConfig.parserOptions.project = './tsconfig.json'
+
+    if (opts.filename.indexOf('file://') === 0) {
+      opts.filename = opts.filename.slice(7)
+    }
 
     return opts
   }
