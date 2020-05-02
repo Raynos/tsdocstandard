@@ -66,16 +66,46 @@ This is the very very first version of this ruleset. I've applied
 it to one "typescript" codebase.
 
  - https://github.com/Raynos/tapzero
+ - https://github.com/Raynos/fake-cloudwatch-logs
 
 I need to use this ruleset on a larger set of typescript files
 before I will be happy with it.
 
 Any and all feedback is useful in issues or PRs
 
+## Known issues
+
+There are limitations with the following rules
+
+ - `no-unsafe-assignment` ( https://github.com/typescript-eslint/typescript-eslint/issues/1943 )
+ - `no-invalid-void-type` ( https://github.com/typescript-eslint/typescript-eslint/pull/1960 )
+
 ## How to ignore files
 
 Add a `tsdocstandard` key like documented for `standard`
 https://standardjs.com/#how-do-i-ignore-files
+
+## How to use in text editor.
+
+I have `standard` vscode installed. You can configure it on a
+per project basis whether to use `standard`; `semistandard` or
+`standardx`.
+
+For my `tsdocstandard` projects I configured it to use `standardx`
+then in my home dir I installed `tsdocstandard` as `standardx`
+
+```sh
+$ cat ~/projects/package.json
+{
+  "dependencies": {
+    "standardx": "Raynos/tsdocstandard#v15.2.1"
+  }
+}
+```
+
+Since I do not use `standardx` at all, i can make it available
+"globally" and have my text editor configured to use `tsdocstandard`
+via the `standardx` binary name.
 
 ## Rules
 
