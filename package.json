@@ -10,7 +10,7 @@
     "@typescript-eslint/parser": "2.30.0",
     "eslint": "Raynos/eslint#v6.8.0-relative-to-parser",
     "eslint-config-standard": "14.1.1",
-    "eslint-config-tsdocstandard": "16.0.2",
+    "eslint-config-tsdocstandard": "16.0.3",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-jsdoc": "24.0.0",
     "eslint-plugin-jsdoc-typescript": "1.2.0",
