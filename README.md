@@ -60,10 +60,11 @@ npm install -D typescript # dependency
 npm install -D tsdocstandard
 ```
 
-## Status (experimental)
+## Status (Unstable)
 
-This is the very very first version of this ruleset. I've applied
-it to one "typescript" codebase.
+Currently `tsdocstandard` is used in multiple repositories. I've
+applied it to existing TS code as well as added to a vanilla JS
+code.
 
  - https://github.com/Raynos/tapzero
  - https://github.com/Raynos/fake-cloudwatch-logs
