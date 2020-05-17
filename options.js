@@ -11,9 +11,6 @@ module.exports = {
   eslint: require('eslint'),
   eslintConfig: {
     configFile: path.join(__dirname, 'eslintrc.json')
-    // parserOptions: {
-    //   project: path.join(process.cwd(), './tsconfig.json')
-    // }
   },
   parseOpts: (opts, packageOpts, rootDir) => {
     opts.eslintConfig = opts.eslintConfig || {}
