@@ -1,7 +1,7 @@
 {
   "name": "tsdocstandard",
   "description": "A standard for JavaScript + jsdoc + typescript",
-  "version": "15.4.0",
+  "version": "15.4.1",
   "bin": {
     "tsdocstandard": "./bin/cmd.js"
   },
