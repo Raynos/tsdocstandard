@@ -1,4 +1,7 @@
 #!/usr/bin/env node
 
 var opts = require('../options.js')
-require('../custom-engine.js').cli(opts)
+var Linter = require('../custom-engine.js')
+
+opts.linter = new Linter(opts)
+require('standard-engine').cli(opts)
