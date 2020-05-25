@@ -70,6 +70,7 @@ code.
  - https://github.com/Raynos/fake-cloudwatch-logs
  - https://github.com/Raynos/error
  - https://github.com/Raynos/sync-wait-group
+ - https://github.com/Raynos/fake-ses
 
 I need to use this ruleset on a larger set of typescript files
 before I will be happy with it.
