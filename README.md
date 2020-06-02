@@ -66,14 +66,15 @@ Currently `tsdocstandard` is used in multiple repositories. I've
 applied it to existing TS code as well as added to a vanilla JS
 code.
 
- - https://github.com/Raynos/tapzero
- - https://github.com/Raynos/fake-cloudwatch-logs
- - https://github.com/Raynos/error
- - https://github.com/Raynos/sync-wait-group
- - https://github.com/Raynos/fake-ses
- - https://github.com/Raynos/fake-kms
+ - https://github.com/Raynos/tapzero (ported from TS => JSDoc)
+ - https://github.com/Raynos/fake-cloudwatch-logs (ported from TS => JSDoc)
+ - https://github.com/Raynos/sync-wait-group (ported from TS => JSDoc)
+ - https://github.com/Raynos/fake-ses (ported from TS => JSDoc)
+ - https://github.com/Raynos/fake-kms (ported from TS => JSDoc)
+ - https://github.com/Raynos/error (ported from JS => JSDoc)
+ - https://github.com/Raynos/fake-lambda-api (written in JSDoc from scratch)
 
-I need to use this ruleset on a larger set of typescript files
+I need to use this ruleset on a larger set of javascript files
 before I will be happy with it.
 
 Any and all feedback is useful in issues or PRs
