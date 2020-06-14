@@ -9,7 +9,7 @@
     "@typescript-eslint/eslint-plugin": "2.30.0",
     "eslint": "6.8.0",
     "eslint-config-standard": "14.1.1",
-    "eslint-config-tsdocstandard": "16.2.3",
+    "eslint-config-tsdocstandard": "16.2.4",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-jsdoc": "24.0.0",
     "eslint-plugin-jsdoc-typescript": "1.2.1",
