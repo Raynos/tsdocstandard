@@ -39,6 +39,50 @@ TS is probably fine for a closed source app or server.
  - The published artifact to npm is the one I wrote and is not some "compiled JS" output. Aka no source maps.
  - In general there are far fewer files checked into git with JS+JSDoc for a library published to npm.
 
+## Usage
+
+To use `tsdocstandard` you want to replace `standard` with `tsdocstandard`
+and also install `typesript`
+
+```sh
+npm install tsdocstandard typescript -D
+tsc && tsdocstandard
+```
+
+Since `tsdocstandard` relies on typescript in jsdoc you want to
+make sure your codebase "type checks" with `tsc` before running
+the linter with `tsdocstandard` otherwise some lint rules will
+fail due to a typescript type checking error.
+
+To use typescript you need a `tsconfig.json`; for example you can use
+
+```json
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "lib": ["es2018"],
+    "noEmit": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "*" : ["./types/*"]
+    }
+  },
+  "include": [
+    "types/**/*.d.ts",
+    "*.js",
+    "test/**/*.js"
+  ]
+}
+```
+
 ## Migration
 
 If you want to migrate a larger codebase one file at it's
