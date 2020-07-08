@@ -28,6 +28,17 @@ Once you fix all the missing annotations expect almost 100%
 [`type-coverage`](https://github.com/plantain-00/type-coverage)
 library ).
 
+## Why use JS+JSDoc over TS ?
+
+I found JS+JSDoc a better fit for open source libraries published to npm. 
+TS is probably fine for a closed source app or server.
+
+ - Using JS makes the package.json 10x simpler ( https://github.com/Raynos/fake-kms/pull/1/files#diff-b9cfc7f2cdf78a7f4b91a753d10865a2 )
+ - No build step during development
+ - External contributors for my library can just write JS, largest pool of possible contributors ( same reason i dont author/publish coffeescript )
+ - The published artifact to npm is the one I wrote and is not some "compiled JS" output. Aka no source maps.
+ - In general there are far fewer files checked into git with JS+JSDoc for a library published to npm.
+
 ## Migration
 
 If you want to migrate a larger codebase one file at it's
