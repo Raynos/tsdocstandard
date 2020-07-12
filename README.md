@@ -42,7 +42,7 @@ TS is probably fine for a closed source app or server.
 ## Usage
 
 To use `tsdocstandard` you want to replace `standard` with `tsdocstandard`
-and also install `typesript`
+and also install `typescript`
 
 ```sh
 npm install tsdocstandard typescript -D
