@@ -128,6 +128,7 @@ code.
  - https://github.com/Raynos/fake-kms (ported from TS => JSDoc)
  - https://github.com/Raynos/error (ported from JS => JSDoc)
  - https://github.com/Raynos/fake-lambda-api (written in JSDoc from scratch)
+ - https://github.com/Raynos/fake-s3 (ported from JS => JSDoc)
 
 I need to use this ruleset on a larger set of javascript files
 before I will be happy with it.
@@ -150,23 +151,13 @@ https://standardjs.com/#how-do-i-ignore-files
 
 I have `standard` vscode installed. You can configure it on a
 per project basis whether to use `standard`; `semistandard` or
-`standardx`.
+`standardx`. However if you edit the JSON file you can enter
+an arbitrary string like `tsdocstandard`.
 
-For my `tsdocstandard` projects I configured it to use `standardx`
-then in my home dir I installed `tsdocstandard` as `standardx`
-
-```sh
-$ cat ~/projects/package.json
-{
-  "dependencies": {
-    "standardx": "Raynos/tsdocstandard#v15.2.1"
-  }
-}
-```
-
-Since I do not use `standardx` at all, i can make it available
-"globally" and have my text editor configured to use `tsdocstandard`
-via the `standardx` binary name.
+As long as you install `tsdocstandard` globally and edit the
+VS code extension configuration to use the `tsdocstandard` engine
+which requires editing JSON as the UI only has three items in
+the dropdown.
 
 ## Rules
 
