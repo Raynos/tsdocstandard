@@ -129,6 +129,7 @@ code.
  - https://github.com/Raynos/error (ported from JS => JSDoc)
  - https://github.com/Raynos/fake-lambda-api (written in JSDoc from scratch)
  - https://github.com/Raynos/fake-s3 (ported from JS => JSDoc)
+ - https://github.com/optoolco/fake-aws (written in JSDoc)
 
 I need to use this ruleset on a larger set of javascript files
 before I will be happy with it.
