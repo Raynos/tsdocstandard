@@ -28,6 +28,12 @@ Once you fix all the missing annotations expect almost 100%
 [`type-coverage`](https://github.com/plantain-00/type-coverage)
 library ).
 
+## Comparison with ts-standard
+
+There's also a [ts-standard](https://github.com/toddbluhm/ts-standard) linter.
+However, that is meant to lint `*.ts` typescript files. This project `tsdocstandard`
+is to lint `*.js` files used with `tsc --checkJs` 
+
 ## Why use JS+JSDoc over TS ?
 
 I found JS+JSDoc a better fit for open source libraries published to npm. 
