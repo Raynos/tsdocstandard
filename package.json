@@ -6,7 +6,7 @@
     "tsdocstandard": "./bin/cmd.js"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "3.6.0",
+    "@typescript-eslint/eslint-plugin": "4.6.0",
     "eslint": "7.12.1",
     "eslint-config-standard": "16.0.1",
     "eslint-config-tsdocstandard": "17.0.0",
