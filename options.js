@@ -11,6 +11,13 @@ module.exports = {
   bugs: pkg.bugs.url,
   tagline: 'JavaScript + Typescript + JSDoc',
   eslint: require('eslint'),
+  extensions: [
+    '.js',
+    '.jsx',
+    '.mjs',
+    '.cjs',
+    '.d.ts'
+  ],
   eslintConfig: {
     configFile: path.join(__dirname, 'eslintrc.json')
   },
