@@ -32,11 +32,11 @@ library ).
 
 There's also a [ts-standard](https://github.com/toddbluhm/ts-standard) linter.
 However, that is meant to lint `*.ts` typescript files. This project `tsdocstandard`
-is to lint `*.js` files used with `tsc --checkJs` 
+is to lint `*.js` files used with `tsc --checkJs`
 
 ## Why use JS+JSDoc over TS ?
 
-I found JS+JSDoc a better fit for open source libraries published to npm. 
+I found JS+JSDoc a better fit for open source libraries published to npm.
 TS is probably fine for a closed source app or server.
 
  - Using JS makes the package.json 10x simpler ( https://github.com/Raynos/fake-kms/pull/1/files#diff-b9cfc7f2cdf78a7f4b91a753d10865a2 )
@@ -127,15 +127,15 @@ Currently `tsdocstandard` is used in multiple repositories. I've
 applied it to existing TS code as well as added to a vanilla JS
 code.
 
- - https://github.com/Raynos/tapzero (ported from TS => JSDoc)
- - https://github.com/Raynos/fake-cloudwatch-logs (ported from TS => JSDoc)
- - https://github.com/Raynos/sync-wait-group (ported from TS => JSDoc)
- - https://github.com/Raynos/fake-ses (ported from TS => JSDoc)
- - https://github.com/Raynos/fake-kms (ported from TS => JSDoc)
- - https://github.com/Raynos/error (ported from JS => JSDoc)
- - https://github.com/Raynos/fake-lambda-api (written in JSDoc from scratch)
- - https://github.com/Raynos/fake-s3 (ported from JS => JSDoc)
- - https://github.com/optoolco/fake-aws (written in JSDoc)
+ - https://github.com/Raynos/tapzero (16.1.0) (ported from TS => JSDoc)
+ - https://github.com/Raynos/fake-cloudwatch-logs (16.1.0) (ported from TS => JSDoc)
+ - https://github.com/Raynos/sync-wait-group (16.1.0) (ported from TS => JSDoc)
+ - https://github.com/Raynos/fake-ses (15.4.2) (ported from TS => JSDoc)
+ - https://github.com/Raynos/fake-kms (15.4.2) (ported from TS => JSDoc)
+ - https://github.com/Raynos/error (15.2.2) (ported from JS => JSDoc)
+ - https://github.com/Raynos/fake-lambda-api (15.5.2) (written in JSDoc from scratch)
+ - https://github.com/Raynos/fake-s3 (15.7.1) (ported from JS => JSDoc)
+ - https://github.com/optoolco/fake-aws (15.7.1) (written in JSDoc)
 
 I need to use this ruleset on a larger set of javascript files
 before I will be happy with it.
