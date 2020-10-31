@@ -9,7 +9,7 @@
     "@typescript-eslint/eslint-plugin": "3.6.0",
     "eslint": "7.12.1",
     "eslint-config-standard": "16.0.1",
-    "eslint-config-tsdocstandard": "github:Raynos/eslint-config-tsdocstandard#acb37c8c0abb805c7d8894783875212d63d8bc57",
+    "eslint-config-tsdocstandard": "github:Raynos/eslint-config-tsdocstandard#b5811a4c8b5357a83ed087558bd53ddfa10792c1",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsdoc": "30.7.5",
     "eslint-plugin-jsdoc-typescript": "2.0.0",
