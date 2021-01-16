@@ -6,18 +6,18 @@
     "tsdocstandard": "./bin/cmd.js"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.6.0",
+    "@typescript-eslint/eslint-plugin": "4.13.0",
     "eslint": "7.12.1",
     "eslint-config-standard": "16.0.1",
-    "eslint-config-tsdocstandard": "17.0.0",
+    "eslint-config-tsdocstandard": "17.1.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsdoc": "30.7.5",
-    "eslint-plugin-jsdoc-typescript": "2.0.0",
+    "eslint-plugin-jsdoc-typescript": "2.1.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "4.2.1",
     "json5": "2.1.3",
     "standard-engine": "14.0.1",
-    "typescript": "4.0.5"
+    "typescript": "4.1.3"
   },
   "devDependencies": {},
   "keywords": [
